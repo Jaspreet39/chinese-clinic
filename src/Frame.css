@@ -1,0 +1,71 @@
+.frame p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.card{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.cardContent{
+    width: 50%;
+    height: 30vh;
+    background-image: url('https://dj3im2gm3txew.cloudfront.net/pub/media/wysiwyg/homepage/new__arrivals.jpeg');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    align-items:flex-start;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.cardContent h3{
+    max-width: 55%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.cardContent h2, .thumbContent h2{
+    font-weight: 500;
+    font-size: 25px
+}
+.cardContent button{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #3D6BBF;
+    color: #3D6BBF;
+}
+.thumb{
+    display: flex;
+    width: 65%;
+    margin: auto;
+}
+.thumbContent{
+    width: 350px;
+    height: 350px;
+    background-image: url('https://dj3im2gm3txew.cloudfront.net/pub/media/wysiwyg/homepage/sunnies_.jpg');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.thumbContent button{
+padding: 10px 60px;
+border-radius: 30px;
+border-width: 1px;
+border-color: #3D6BBF;
+color: #3D6BBF;
+margin-top: 20px;
+}

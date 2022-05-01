@@ -1,0 +1,38 @@
+.location{
+    margin-top: 70px;
+}
+.locationContent{
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #F7F5F2;
+    padding: 0 30px;
+}
+
+.left{
+    /* flex: 1px; */
+}
+.left h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.left p{
+    max-width: 80%;
+    margin-top: 20px;
+}
+.left button{
+    padding: 15px 40px;
+    background-color: #003CAC;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;margin-top: 20px;
+    border-radius: 30px;
+}
+.right img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}

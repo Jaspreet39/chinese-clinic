@@ -1,0 +1,23 @@
+.adver{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.adver h1, .adver p{
+    text-align: center;
+}
+
+
+.adver button{
+    padding: 15px 30px; 
+    background-color: #003CAC;
+    border-radius: 30px;
+    margin: 20px 0;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}

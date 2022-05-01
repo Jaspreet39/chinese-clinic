@@ -1,0 +1,48 @@
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('https://dj3im2gm3txew.cloudfront.net/pub/media/wysiwyg/feb22_dsk.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.bannerContent {
+    margin-left: 15%;
+    padding-top: 20px;
+    align-items: flex-start;
+}
+
+.bannerContent h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #364866;
+}
+
+.bannerContent p {
+    max-width: 32%;
+}
+
+.bannerContent button{
+    padding: 20px 100px;
+    border-radius: 80px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #364866;
+    font-size: 30px;
+    font-weight: bold;
+    border-color: #364866;
+}
+.bannerContent button:hover{
+    background-color:#75BF47;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+.bannerButton button{
+    max-width: 10%;
+    font-size: 13px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-width: 1px;
+    background-color: #fff;
+    color: #003CAC;
+}
